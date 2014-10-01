@@ -19,8 +19,6 @@ namespace ニゲーム
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        Texture2D sprite;
-
         public Game1()
             : base()
         {
