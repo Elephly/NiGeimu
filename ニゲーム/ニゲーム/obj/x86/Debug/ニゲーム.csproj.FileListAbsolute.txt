@@ -23,3 +23,28 @@ C:\Users\Nick\My Projects\Monogame\NiGeimu\ニゲーム\ニゲーム\bin\Windows
 C:\Users\Nick\My Projects\Monogame\NiGeimu\ニゲーム\ニゲーム\obj\x86\Debug\ニゲーム.csprojResolveAssemblyReference.cache
 C:\Users\Nick\My Projects\Monogame\NiGeimu\ニゲーム\ニゲーム\obj\x86\Debug\ニゲーム.exe
 C:\Users\Nick\My Projects\Monogame\NiGeimu\ニゲーム\ニゲーム\obj\x86\Debug\ニゲーム.pdb
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\obj\x86\Debug\ニゲーム.exe
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\obj\x86\Debug\ニゲーム.pdb
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\ニゲーム.exe
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\ニゲーム.pdb
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\Lidgren.Network.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.xml
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\smiza_000\Documents\NiGeimu\ニゲーム\ニゲーム\obj\x86\Debug\ニゲーム.csprojResolveAssemblyReference.cache
