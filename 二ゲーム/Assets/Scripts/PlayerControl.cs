@@ -20,10 +20,8 @@ public class PlayerControl : MonoBehaviour {
 			}
 			if (Input.GetKey(KeyCode.A)){
 				transform.Translate (Vector2.right * speed *Time.deltaTime);
-				transform.eulerAngles = new Vector2(0,180);
-			
+				transform.eulerAngles = new Vector2(0,180);			
 			}
-
 			if (Input.GetKey(KeyCode.Space)){
 				rigidbody2D.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Force);
 
@@ -31,4 +29,6 @@ public class PlayerControl : MonoBehaviour {
 		}
 
 	}
+
+
 }
