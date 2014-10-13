@@ -4,11 +4,11 @@ using System.Collections;
 public class PlayerControl : MonoBehaviour {
 
 	float speed = 8f;
-	float jumpSpeed = 280f;
+	float jumpSpeed = 350f;
 	
 	bool canJump;
 	bool isJumping;
-
+	
 	void Update () {
 		Movement();
 	}
@@ -28,7 +28,14 @@ public class PlayerControl : MonoBehaviour {
 			canJump = false;
 			isJumping = true;
 		}
+		if (canJump && Input.GetKeyDown(KeyCode.Space)){
+			rigidbody2D.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Force);
+
+			canJump = false;
+			isJumping = true;
+		}
 	}
+
 
 	void OnCollisionEnter2D(Collision2D coll){
 		if (coll.gameObject.tag == "ground"){
@@ -36,6 +43,5 @@ public class PlayerControl : MonoBehaviour {
 			isJumping = false;
 		}
 	}
-
 
 }
