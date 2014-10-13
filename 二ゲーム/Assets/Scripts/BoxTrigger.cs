@@ -5,12 +5,17 @@ public class BoxTrigger : MonoBehaviour {
 	bool showGui = false;
 	bool inTrigger = false;
 	bool buttonPress = false;
+	bool doneOnce = false; 
 
 	void Update(){
 		if (inTrigger){
-			if (Input.GetKeyDown(KeyCode.E)){
-				buttonPress = true;
-			}
+			Interact();
+		}
+	}
+
+	void Interact(){
+		if (Input.GetKey(KeyCode.E)){
+			buttonPress = true;
 		}
 	}
 
@@ -38,8 +43,13 @@ public class BoxTrigger : MonoBehaviour {
 		if(showGui == true){
 			GUI.Label(new Rect(Screen.width/2+50,Screen.height/2+50,75,50),"You're by the box. Press E for super geeky stuff.",myStyle);
 		}
-		if(buttonPress == true){
-			GUI.Label(new Rect(Screen.width/2+200,Screen.height/2,100,50),"SUPER GEEKY STUFF. RAWR.",myStyle);
+		if(buttonPress){
+			if (doneOnce == false){
+				GUI.Label(new Rect(Screen.width/2+200,Screen.height/2,100,50),"SUPER GEEKY STUFF. RAWR.",myStyle);
+			}
+			else if (doneOnce == true){
+				GUI.Label(new Rect(Screen.width/2+200,Screen.height/2+20,100,50),"YOU'VE ALREADY DONE THIS, ASSHOLE.",myStyle);
+			}
 		}
 	}
 
