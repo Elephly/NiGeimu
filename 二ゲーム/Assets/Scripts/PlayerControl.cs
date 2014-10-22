@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerControl : MonoBehaviour {
 
 	float speed = 8f;
-	float jumpSpeed = 350f;
+	float jumpSpeed = 500f;
 	
 	bool canJump;
 	bool isJumping;

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BoxTrigger.cs" />
+     <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Gui_Text.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
   </ItemGroup>
