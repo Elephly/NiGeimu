@@ -2,10 +2,12 @@
 using System.Collections;
 
 public class PlayerControl : MonoBehaviour {
+	
+	public static bool facingRight = true;
 
 	float speed = 8f;
 	float jumpSpeed = 500f;
-	
+
 	bool canJump;
 	bool isJumping;
 	
@@ -18,10 +20,12 @@ public class PlayerControl : MonoBehaviour {
 		if (Input.GetKey(KeyCode.D)){
 			transform.Translate (Vector2.right * speed *Time.deltaTime);
 			transform.eulerAngles = new Vector2(0,0);
+			facingRight = true;
 		}
 		if (Input.GetKey(KeyCode.A)){
 			transform.Translate (Vector2.right * speed *Time.deltaTime);
-			transform.eulerAngles = new Vector2(0,180);			
+			transform.eulerAngles = new Vector2(0,180);
+			facingRight = false;
 		}
 		if (canJump && Input.GetKeyDown(KeyCode.Space)){
 			rigidbody2D.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Force);
